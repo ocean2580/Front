@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>标题</title>
+	<!-- CSS样式设置 -->
+	<style type="text/css">
+		.container{width:750px;margin:0 auto;text-align:center;backgroun-color:#fff;padding:30px;}
+		h1{font-family:黑体;font-size:24px;color:#059;letter-spacing:12px;}
+		.source{font-family:宋体;color:black;font-size:14px;}
+		.content{font-size:14px;}
+		p{text-align:left;font-size:14px;text-indent:2em;}
+	</style>
+</head>
+<body>
+	<!-- 区隔标记 -->
+	<div class="container">
+		<!-- 设定文字、图片、表格等的摆放位置 -->
+		<img src="imgs/news.png" width=750 height=450>
+		<h1> <i>一级标题</i></h1>
+			<div class="source"><u><a href="https://news.cctv.com/">央视网</a></u>| 2022.04.26 13:32 | 来源：央视网</div>
+			<div class="content">
+				<p>前言</p>
+				<p>主要内容<font size="4px" color="red">>></font></p>
+				<p>1.不负韶华 国聘行动”重庆两江新区智能制造专场启动</p>
+				<p>...</p>
+				<p>2.焦点访谈：我们村的新能人 “慧”种田 “智”富路</p>
+				<p>...</p>
+				<p>3.中国驻巴使馆工作人员证实：卡拉奇爆炸案造成3名中国公民遇难</p>
+				<p>...</p>
+			</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>标题</title>
+	<style type="text/css">
+		.container{width:650px;margin:0 auto;text-align:center;backgroun-color:#fff;padding:20px;}
+		#nav{list-style:none;font-size:22px;line-height:40px;}
+		.home{border-top:4px solid #7bc110;background:#be6;}
+		.activity{border-top:4px solid #ff9900;background:#fc3;}
+		.personal{border-top:4px solid #ff66ff;background:#fcf;}
+		#nav li{margin-top:5px;} 
+	</style>
+</head>
+<body>
+	<div class="container">
+		<ul id="nav">
+			<li class="home">1</li>
+			<li class="activity">2</li>
+			<li class="personal">3</li>
+		</ul>
+	</div>
+</body>
+</html>
+
+<!-- 
+
+
+#nav li{margin-top:5px;} 列表间距 (行)
+#nav li{margin-right:5px;float:left;width:100px;}  （列）
+
+<li> 添加 float:left 将导航条垂直变水平
+
+-->

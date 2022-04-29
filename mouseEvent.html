@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script type="text/javascript">
+		function show(){
+			var newColor = prompt("color:","#87ceeb");
+			var tbl = document.getElementById("loginArea");
+			tbl.style.backgroundColor = newColor;
+		}
+		function mouseOver(){
+			document.mouse.src="imgs/album01.png";
+		}
+		function mouseOut(){
+			document.mouse.src="imgs/album02.jpg";
+		}
+		function mousePressed(){
+			if(event.button==2) {
+				alert("left");	
+			} else {
+				alert("right");	
+			}
+		}
+
+	</script>
+</head>
+<body onmousedown="mousePressed()">
+	<img border="0" src="imgs/album03.png" name="mouse" onmouseover="mouseOver()" onmouseout="mouseOut()"/>	
+</body>
+</html>
